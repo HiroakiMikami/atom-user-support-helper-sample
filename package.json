@@ -1,0 +1,22 @@
+{
+  "name": "atom-user-support-helper-sample",
+  "main": "./lib/atom-user-support-helper-sample",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "consumedServices": {
+    "user-support-helper": {
+      "versions": {
+        "^0.0.0": "consumeUserSupportHelper"
+      }
+    }
+  },
+  "repository": "https://github.com/atom/atom-user-support-helper-sample",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
